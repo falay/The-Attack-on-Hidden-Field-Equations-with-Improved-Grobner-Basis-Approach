@@ -1,0 +1,11 @@
+A implementation of breaking Hidden Field Equation(HFE) system using Grobner basis approach.
+
+The code of HFE public key instance construction part is quoted from the thesis"Algebraic cryptanalysis of Hidden Field Equations family" by Adam Janovsky.
+
+We provide the decryption part and our improved Grobner basis attack which speeds up the performance.
+The computation is executed over GF(2) and the plaintext is randomly generated.
+
+Usage: ./sage HFE.sage [plaintext length]
+
+You may comment the part of printing the text and remain the statement "print elapsed_time" to use runner.sh to see the running performance. 
+
